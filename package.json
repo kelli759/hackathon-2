@@ -36,3 +36,7 @@
     "vite": "^6.3.5"
   }
 }
+
+"scripts": {
+  "build": "postcss src/index.css -o dist/index.css"
+}
